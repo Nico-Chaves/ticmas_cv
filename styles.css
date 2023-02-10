@@ -1,0 +1,80 @@
+header {
+    height: auto;
+    padding-top: 1px;
+}
+.nav-barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+header .redes {
+    height: 50px;
+    width: 80px;
+    display: block;
+    float: right;
+}
+.banner {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.banner img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.perfil {
+    text-align: center;
+}
+.perfil .perfil__imagen--contenedor {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%; 
+    overflow: hidden;
+}
+.perfil .perfil__imagen--contenedor .perfil__imagen {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+.mt-n45{
+    margin-top: -45%;
+}
+.logo_experiencia{
+    height: 80px;
+    width: 80px; 
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 45px;
+    border-color: #0a66c2;
+    overflow: hidden;
+}
+.experiencia, .educacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fa-button, .fa{
+    color: black;
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+}
+.fa-button:hover, .fa:hover {
+    background: grey;
+}
+li{
+    list-style: none;
+}
