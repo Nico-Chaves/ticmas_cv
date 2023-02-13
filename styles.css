@@ -78,3 +78,9 @@ header .redes {
 li{
     list-style: none;
 }
+.logo_idioma{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
