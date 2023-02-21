@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio Nicolas Chaves</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"/>    
     <script src="https://kit.fontawesome.com/432db81742.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="card mat-card">
+<!-- Comienza seccion navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbarScroll">
+        <div class="container">              
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">                  
+              <li class="nav-item">
+                <a class="nav-link navlink titulo" href="#sobre_mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink titulo" href="#exp_laboral">Experiencia</a>                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink titulo" href="#educacion">Educacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink titulo" href="#idiomas">Idiomas</a>
+              </li>                 
+            </ul>                
+          </div>
+        </div>
+      </nav>
+<!-- Comienza seccion sobre mi -->
+    <section id="sobre_mi" class="card mat-card mt-60">
         <div class="banner">
             <img src="./img/foto_banner.webp" class="card-img-top" alt="foto_banner"/>
         </div>
@@ -21,30 +51,41 @@
                         <img class="perfil__imagen" src="./img/nicolaschaves.jpg" alt="Nicolás Chaves"/>
                     </div>
                     <div>
-                        <h2>Nicolas Chaves</h2>
-                        <div class="d-flex justify-content-between">
-                            <h6>Ingeniero Mecánico y Desarrollador Full Stack Jr.</h6>
-                            <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>                                                       
+                        <h2 class="titulo">Nicolas Chaves</h2>
+                        <div>
+                            <p>Ingeniero Mecánico y Desarrollador Full Stack Jr.</p>                                                                                  
                         </div>
-                        <a href="./form.html"><button type="button" class="btn btn-primary btn-lg">Ingresar</button></a>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-2">
+                                <a href="https://www.linkedin.com/in/chaves-nicolas/" target="_blank"><i class="fa fa-brands fa-linkedin fa-lg"></i></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="https://github.com/Nico-Chaves" target="_blank"><i class="fa fa-brands fa-github fa-lg"></i></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="https://wa.me/5492236863361" target="_blank"><i class="fa fa-brands fa-whatsapp fa-lg"></i></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#"><i class="fa fa-solid fa-envelope fa-lg"></i></a>
+                            </div>
+                        </div>
+                        <!-- <a href="./form.html"><button type="button" class="btn btn-primary">Ingresar</button></a>                         -->
                     </div>
                 </div>
                 <div class="informacion col">
                     <div class="d-flex justify-content-between">
-                        <h3>Sobre mí</h3>                    
-                        <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                        <h3 class="titulo">Sobre mí</h3>  
                     </div>                                     
                     <p>Soy Ingeniero Mecánico graduando en la Universidad Nacional de Mar del Plata. Actualmente me estoy capacitando en diversas tecnologias para el desarrollo Web (HTML, CSS, PHP, React JS, JavaScript). Los conocimientos adquiridos durante mi carrera académica, sumados a mi capacidad de trabajo en equipo y el entusiasmo de trabajar y aprender, me han dado la formación necesaria para poder incorporarme a una empresa, con el objetivo de desarrollar tanto mis conocimientos, como mi vida profesional.</p>
                 </div>
             </div>        
         </div>
-    </div>
+    </section>
 <!-- Comienza seccion experiencia laboral -->
-    <section class="card mat-card">
+    <section id="exp_laboral" class="card mat-card">
         <div class="experiencia container">
             <div class="d-flex justify-content-between">
-                <h2>Experiencia</h2>
-                <a href="#"><i class="fa fa-solid fa-plus fa-lg"></i></a>
+                <h2 class="titulo">Experiencia</h2>                
             </div>
             <ul>
                 <li>        
@@ -54,8 +95,7 @@
                         </div>
                         <div class="info_logo col">
                             <div class="d-flex justify-content-between">
-                                <div>Supervisor Diseño Mecánico</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Supervisor Diseño Mecánico</div>                                
                             </div>                
                             <div>Fluence Corp</div>
                             <div>Jornada Completa</div>
@@ -73,8 +113,7 @@
                         </div>
                         <div class="info_logo2 col">
                             <div class="d-flex justify-content-between">
-                                <div>Evaluador de campo y Analista Jr.</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Evaluador de campo y Analista Jr.</div>                                
                             </div>                
                             <div>GIE GROUP</div>
                             <div>Jornada completa</div>
@@ -96,8 +135,7 @@
                         </div>
                         <div class="info_logo3 col">
                             <div class="d-flex justify-content-between">
-                                <div>Diseñador Mecánico</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Diseñador Mecánico</div>                                
                             </div>                
                             <div>Abreu S.A.</div>
                             <div>Jornada completa</div>
@@ -118,8 +156,7 @@
                         </div>
                         <div class="info_logo4 col">
                             <div class="d-flex justify-content-between">
-                                <div>Investigador Jr.</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Investigador Jr.</div>                                
                             </div>                
                             <div>Facultad Nacional de Ingenieria - UNMDP</div>
                             <div>Jornada completa</div>
@@ -140,8 +177,7 @@
                         </div>
                         <div class="info_logo5 col">
                             <div class="d-flex justify-content-between">
-                                <div>Diseñador Mecánico</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Diseñador Mecánico</div>                                
                             </div>               
                             <div>STI Ingeniería</div>
                             <div>Jornada completa</div>
@@ -160,11 +196,10 @@
         </div>
     </section>
 <!-- Comienza seccion Educacion -->
-    <section class="card mat-card">
+    <section id="educacion" class="card mat-card">
         <div class="educacion container">
             <div class="d-flex justify-content-between">
-                <h2>Educación</h2>
-                <a href="#"><i class="fa fa-solid fa-plus fa-lg"></i></a>
+                <h2 class="titulo">Educación</h2>                
             </div>
             <ul>
                 <li>
@@ -174,8 +209,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Argentina Programa Segunda Etapa <b>#Yo Programo</b></div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Argentina Programa Segunda Etapa <b>#Yo Programo</b></div>                                
                             </div>                
                             <div>Desarrollo FrontEnd y BackEnd profolio personal.<br> Desarrollador FullStack Jr.</div>
                             <div><p><time>2022</time> - <time>2023</time></p></div>
@@ -190,8 +224,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Argentina Programa Primera Etapa <b>#SeProgramar</b></div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Argentina Programa Primera Etapa <b>#SeProgramar</b></div>                                
                             </div>                
                             <div>Conceptos fundamentales vinculados a la programación utilizando Gobstones.<br>
                                 Programación Imperativa y estructuras de datos utilizando JavaScript.<br>
@@ -208,8 +241,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Centro de e-Learning UTN FRBA</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Centro de e-Learning UTN FRBA</div>                                
                             </div>                    
                             <div>Desarrollo en React JS.</div>
                             <div><p><time>2022</time> - <time>2022</time></p></div>
@@ -224,8 +256,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Centro de Formación Laboral N°402</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Centro de Formación Laboral N°402</div>                                
                             </div>                
                             <div>Especialización profesional en programación web con HTML,CSS, PHP y MySql</div>
                             <div><p><time>2021</time> - <time>2021</time></p></div>
@@ -240,8 +271,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Universidad Nacional de Mar del Plata</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Universidad Nacional de Mar del Plata</div>                                
                             </div>                
                             <div>Ingeniería Mecánica</div>
                             <div><p><time>2006</time> - <time>2016</time></p></div>
@@ -252,11 +282,10 @@
             </ul>            
     </section>
 <!-- Comienza seccion idiomas -->
-    <section class="card mat-card">
+    <section id="idiomas" class="card mat-card">
         <div class="educacion container">
             <div class="d-flex justify-content-between">
-                <h2>Idiomas</h2>
-                <a href="#"><i class="fa fa-solid fa-plus fa-lg"></i></a>
+                <h2 class="titulo">Idiomas</h2>                
             </div>
             <ul>
                 <li>
@@ -266,8 +295,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Español</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Español</div>                                
                             </div>                
                             <div>Competencia Bilingüe o nativa</div>
                         </div>
@@ -281,8 +309,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Ingles</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Ingles</div>                                
                             </div>                
                             <div>Competencia Avanzado</div>
                         </div>
@@ -296,8 +323,7 @@
                         </div>
                         <div class="info_educacion col">
                             <div class="d-flex justify-content-between">
-                                <div>Frances</div>
-                                <a href="#"><i class="fa fa-solid fa-pen fa-sm"></i></a>
+                                <div>Frances</div>                                
                             </div>                
                             <div>Competencia Básica</div>
                         </div>
@@ -308,5 +334,6 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="evaluarLogin.js"></script>
 </body>
 </html>

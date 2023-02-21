@@ -1,13 +1,9 @@
-header {
-    height: auto;
-    padding-top: 1px;
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
-.nav-barra {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
+.titulo{
+    font-weight: 500;
 }
 header .redes {
     height: 50px;
@@ -62,7 +58,7 @@ header .redes {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.fa-button, .fa{
+.fa-button{
     color: #0a66c2;
     display: block;
     height: 2.4rem;
@@ -85,5 +81,14 @@ li{
     object-fit: cover;
 }
 .formulario{
-    padding: 30px;
+    padding: 20px;
+}
+.separacion{
+    margin: 10px 0 5px 0;
+}
+.error{
+    display: none;
+}
+.mt-60{
+    margin-top: 60px;
 }
