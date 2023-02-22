@@ -54,7 +54,7 @@ header .redes {
     border-color: #0a66c2;
     overflow: hidden;
 }
-.experiencia, .educacion{
+.experiencia, .educacion, .proyecto{
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -103,4 +103,8 @@ li{
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 5px;
+}
+
+.card-proyecto:hover{
+    border-color: #0a66c2;
 }
