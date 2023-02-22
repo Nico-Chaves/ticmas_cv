@@ -86,9 +86,21 @@ li{
 .separacion{
     margin: 10px 0 5px 0;
 }
-.error{
+.errorNombre, .errorMail, .errorTexto{
     display: none;
+    color: red;
+}
+.errorMensaje{
+    display: none;
+    color: green;
+    padding-top: 6px;
 }
 .mt-60{
     margin-top: 60px;
+}
+
+.pl-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
 }
