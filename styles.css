@@ -5,12 +5,6 @@
 .titulo{
     font-weight: 500;
 }
-header .redes {
-    height: 50px;
-    width: 80px;
-    display: block;
-    float: right;
-}
 .banner {
     height: 300px;
     width: 100%;
@@ -68,9 +62,6 @@ header .redes {
     border-radius: 50%;
     background: white;
 }
-/* .fa-button:hover, .fa:hover {
-    background: grey;
-} */
 li{
     list-style: none;
 }
@@ -98,6 +89,9 @@ li{
 .mt-60{
     margin-top: 60px;
 }
+.mt-40{
+    margin-top: 40px;
+}
 
 .pl-12{
     padding-left: 12px;
@@ -107,4 +101,20 @@ li{
 
 .card-proyecto:hover{
     border-color: #0a66c2;
+}
+
+.redes{
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+}
+.social-icons{
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.navlink:hover{
+    color:#0d6efd;
+}
+nav{
+    background-color: rgb(235, 233, 233);
 }
